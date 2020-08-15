@@ -1,0 +1,65 @@
+.Login{
+    display: flex;
+    background-color: azure;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.Login__logo{
+width: 100px;
+object-fit: contain;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.Login__container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid rgb(197, 197, 207);
+
+}
+.Login__container > h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.Login__container > form > h5{
+    margin-bottom: 5px;
+}
+.Login__container > form> input{
+    height:30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+
+}
+.Login__container > p{
+    margin-top: 16px;
+    font-size: 14px;
+
+}
+.Login__SignIn{
+    background-color: bisque;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+}
+.Login__SignUp{
+    border-color: bisque;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 2px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+
